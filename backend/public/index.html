@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HodlInfo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HODLINFO</h1>
+            <div class="summary">
+                <div>
+                    <span>0.44%</span>
+                    <p>5 Mins</p>
+                </div>
+                <div>
+                    <span>1%</span>
+                    <p>1 Hour</p>
+                </div>
+                <div class="main-price-container">
+                    <span class="main-price">₹ 51,59,806</span>
+                    <p>Best Price to Trade</p>
+                    <p class="sub-info">Average BTC/INR net price including commission</p>
+                </div>
+                <div>
+                    <span>8.31%</span>
+                    <p>1 Day</p>
+                </div>
+                <div>
+                    <span>8.92%</span>
+                    <p>7 Days</p>
+                </div>
+            </div>
+            <div class="timer">
+                Next update in: <span id="timer">60</span>s
+            </div>
+        </header>
+        <div class="top-controls">
+            <select>
+                <option value="inr">INR</option>
+                <option value="usd">USD</option>
+            </select>
+            <select>
+                <option value="btc">BTC</option>
+                <option value="eth">ETH</option>
+            </select>
+            <button>BUY BTC</button>
+            <button id="theme-toggle">Dark/Light</button>
+        </div>
+        <table id="ticker-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Platform</th>
+                    <th>Last Traded Price</th>
+                    <th>Buy / Sell Price</th>
+                    <th>Difference</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+        <button class="add-to-home">Add hodlinfo to home screen</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
