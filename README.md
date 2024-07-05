@@ -21,7 +21,7 @@ This project demonstrates the ability to fetch, process, and display real-time d
 ## Features
 
 - Fetches cryptocurrency data from the WazirX API.
-- Sorts data by volume and stores the top 100 results in a PostgreSQL database.
+- Sorts data by volume and stores the top 10 results in a PostgreSQL database.
 - Displays data in a responsive web interface.
 - Dark and light theme toggle button.
 - Dropdown menus for currency and cryptocurrency selection.
